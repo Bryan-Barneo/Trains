@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="127.0" spacing="20.0" type="HBox" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="couleurJoueur" fill="DODGERBLUE" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="nomJoueur" alignment="CENTER" contentDisplay="CENTER" text="Label">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+   </children>
+</fx:root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="5.0" type="VBox" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Nombres de joueurs" />
+      <CheckBox fx:id="checkBox2" text="2" />
+      <CheckBox fx:id="checkBox3" text="3" />
+      <CheckBox fx:id="checkBox4" text="4" />
+      <VBox fx:id="Joueursnoms" prefHeight="200.0" prefWidth="100.0" />
+      <ComboBox fx:id="plateauComboBox" prefWidth="150.0" />
+      <Button fx:id="start" mnemonicParsing="false" text="Button" />
+   </children>
+</fx:root>

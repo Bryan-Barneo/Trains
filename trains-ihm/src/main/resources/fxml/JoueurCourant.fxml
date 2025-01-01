@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" maxHeight="500.0" maxWidth="300.0" type="VBox" xmlns="http://javafx.com/javafx/22"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox fx:id="vueJoueurHBox" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0"/>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/coins.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbArgent" alignment="CENTER" contentDisplay="CENTER" prefHeight="33.0"
+                               prefWidth="40.0" text="Coins">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/rail.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbRails" alignment="CENTER" contentDisplay="CENTER" text="nbRails">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/star.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbPoints" alignment="CENTER" contentDisplay="CENTER" text="nbPoint">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/cube_yellow.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbCube" alignment="CENTER" contentDisplay="CENTER" text="nbCube">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/main.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbCartesMain" alignment="CENTER" contentDisplay="CENTER" text="nbCartesMain">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/pioche.png"/>
+                            </image>
+                        </ImageView>
+                        <Label fx:id="nbCartesPioche" alignment="CENTER" contentDisplay="CENTER" text="nbCartesPioche">
+                            <font>
+                                <Font name="System Bold" size="20.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </HBox>
+    </children>
+</fx:root>
